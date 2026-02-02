@@ -24,10 +24,10 @@ class Footer extends React.Component {
                                         </div>
                                         <p>7X Theme is a html template for interior and architecture purpose. Today we can tell you, thanks to your passion.</p>
                                         <ul className="social-icons  sx-social-links">
-                                            <li><a href="https://www.behance.net/" className="fa fa-behance" target="_blank"></a></li>
-                                            <li><a href="https://www.facebook.com" className="fa fa-facebook" target="_blank"></a></li>
-                                            <li><a href="https://twitter.com" className="fa fa-twitter" target="_blank"></a></li>
-                                            <li><a href="https://www.instagram.com" className="fa fa-instagram" target="_blank"></a></li>
+                                            <li><a href="https://www.behance.net/" target="_blank" rel="noreferrer" className="fa fa-behance" aria-hidden="true"><span className="sr-only">Behance</span></a></li>
+                                            <li><a href="https://www.facebook.com" target="_blank" rel="noreferrer" className="fa fa-facebook" aria-hidden="true"><span className="sr-only">Facebook</span></a></li>
+                                            <li><a href="https://twitter.com" target="_blank" rel="noreferrer" className="fa fa-twitter" aria-hidden="true"><span className="sr-only">Twitter</span></a></li>
+                                            <li><a href="https://www.instagram.com" target="_blank" rel="noreferrer" className="fa fa-instagram" aria-hidden="true"><span className="sr-only">Instagram</span></a></li>
                                         </ul>
                                     </div>
                                 </div>

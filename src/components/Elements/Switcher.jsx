@@ -1,7 +1,4 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
-
-const skins = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 class Switcher extends React.Component {
 
@@ -58,8 +55,6 @@ class Switcher extends React.Component {
     };
 
     render() {
-        const isSwitchActive = this.state.isSwitchActive;
-
         return (
             <>
                 <link rel="stylesheet" type="text/css" href={this.state.stylePath} />

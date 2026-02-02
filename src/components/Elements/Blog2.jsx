@@ -68,11 +68,11 @@ class Blog2 extends React.Component {
                                                 </div>
                                                 <div className="widget_social_inks pull-right">
                                                     <ul className="social-icons social-square social-dark m-b0">
-                                                        <li><a href="https://www.facebook.com" target="_blank" className="fa fa-facebook" /></li>
-                                                        <li><a href="https://twitter.com" target="_blank" className="fa fa-twitter" /></li>
-                                                        <li><a href="https://rss.com" target="_blank" className="fa fa-rss" /></li>
-                                                        <li><a href="https://www.youtube.com" target="_blank" className="fa fa-youtube" /></li>
-                                                        <li><a href="https://www.instagram.com" target="_blank" className="fa fa-instagram" /></li>
+                                                        <li><a href="https://www.facebook.com" target="_blank" rel="noreferrer" className="fa fa-facebook" aria-hidden="true"><span className="sr-only">Facebook</span></a></li>
+                                                        <li><a href="https://twitter.com" target="_blank" rel="noreferrer" className="fa fa-twitter" aria-hidden="true"><span className="sr-only">Twitter</span></a></li>
+                                                        <li><a href="https://rss.com" target="_blank" rel="noreferrer" className="fa fa-rss" aria-hidden="true"><span className="sr-only">RSS</span></a></li>
+                                                        <li><a href="https://www.youtube.com" target="_blank" rel="noreferrer" className="fa fa-youtube" aria-hidden="true"><span className="sr-only">YouTube</span></a></li>
+                                                        <li><a href="https://www.instagram.com" target="_blank" rel="noreferrer" className="fa fa-instagram" aria-hidden="true"><span className="sr-only">Instagram</span></a></li>
                                                     </ul>
                                                 </div>
                                             </div>
